@@ -1,0 +1,108 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Cia prasideda mano kodas*/
+
+.vienas{
+    background-color: red; 
+}      
+.du{
+    background-color: darkblue;
+}
+.trys{
+    background-color: antiquewhite;
+}
+.keturi{
+    background-color: orange;
+    display: none;
+}
+}
+.penki{
+    background-color: blueviolet;
+}
+.sesi{
+    background-color: aqua;
+}
+.septyni{
+    background-color: green;
+}
+.astuoni{
+    background-color: brown;
+}
+body{
+    font-size: 0;
+}
+div{
+    width:12.5%;
+    height: 50px;
+    font-size: 24px;
+    display: inline-block;  
+}
+
+/*.vienas, .du, .trys, .keturi {display: inline-block;
+width: 25% }
+
+.penki, .sesi {display: inline-block; width: 50%}
+
+.septyni, .astuoni {width: 100%;}*/
+
+
+.trys, .sesi {float: left;}
+.du, .septyni {float: right;}
+
+.trys, .sesi, .du, .septyni {display:inline-block;}
+
+/*.vienas, .keturi, .penki, .astuoni {display: block;}*/
+div b .penki, .vienas {width: 12.5%}
+div b div .penki {float: left;
+width: 12.5%;
+}
+body {font-size: 0}
+
+div b div .vienas {float: right;}
