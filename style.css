@@ -49,21 +49,6 @@ table {
 
 /*resetas virs */
 
-table tr {
-	display: inline-block;
-	border: solid;
-	border-color: red;
-	width: 90%;
-	height: 100px; 
-	padding: 0 5% 0 5%;
-}
-
-
-
-table tr {
-    border: 10px solid transparent;
-    padding: 15px;
-    -webkit-border-image: url(buda.jpg) 50 round; /* Safari 3.1-5 */
-    -o-border-image: url(border.png) 50 round; /* Opera 11-12.1 */
-    border-image: url(border.png) 50 round;
-}
+/*body {
+	width: 100%
+}*/
